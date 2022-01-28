@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculator.js" defer></script>
+</head>
+
+<body>
+    <div class="container" id="calculator">
+        <div id="screen">
+            <div id="output-screen"></div>
+            <div id="input-screen"></div>
+        </div>
+        <!-- <div class="container" id="num-container"> -->
+        <div class="row">
+            <button class="c-btn" id="clear-btn">CLEAR ALL</button>
+            <button class="c-btn" id="clear-eq-btn">CLEAR ENTRY</button>
+            
+            <button class="c-btn" id="delete-btn">DELETE</button>
+            <button class="operator-btn" id="remainder-btn">%</button>
+        </div>
+        <div class="row">
+            <button class="operator-btn selfop" id="one-over-btn">1/x</button>
+            <button class="operator-btn selfop" id="squared-btn">x^2</button>
+            <button class="operator-btn selfop" id="sqrt-btn">sqrt(x)</button>
+            <button class="operator-btn" id="divide-btn">/</button>
+        </div>
+        <div class="row">
+            <button class="num-btn" id="7-btn">7</button>
+            <button class="num-btn" id="8-btn">8</button>
+            <button class="num-btn" id="9-btn">9</button>
+            <button class="operator-btn" id="multiply-btn">x</button>
+        </div>
+        <div class="row">
+            <button class="num-btn" id="4-btn">4</button>
+            <button class="num-btn" id="5-btn">5</button>
+            <button class="num-btn" id="6-btn">6</button>
+            <button class="operator-btn" id="substract-btn">-</button>
+        </div>
+        <div class="row">
+            <button class="num-btn" id="1-btn">1</button>
+            <button class="num-btn" id="2-btn">2</button>
+            <button class="num-btn" id="3-btn">3</button>
+            <button class="operator-btn" id="add-btn">+</button>
+        </div>
+        <div class="row">
+            <button class="" id="sign-btn">+/-</button>
+            <button class="num-btn">0</button>
+            <button class="" id="dot-btn">.</button>
+            <button class="" id="equal-btn">=</button>
+        </div>
+        <!-- </div> -->
+    </div>
+</body>
+
+</html>
